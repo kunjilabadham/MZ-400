@@ -1,0 +1,60 @@
+{
+  "engine": "ComfyUI-Seedance-VideoDiffusion",
+  "hardware_target": "SaladCloud_RTX4090",
+  "workflow_config": {
+    "prompt": "Hyper-realistic raw mobile video capture of a drunk man dancing realistic in the street, photorealistic street documentary style, cinematic unpolished motion, Raw ambient neon/street sodium lighting, low grain, photorealistic 8k, handheld camera shake, authentic physics, 8k resolution, subsurface skin scattering, masterpiece fidelity, 60fps",
+    "negative_prompt": "cartoon, 3D render, smooth plastic, anime, flashy artificial lighting, deformed limbs, extra legs, distorted anatomy, oversaturated, clickbait watermark",
+    "aspect_ratio": "9:16",
+    "frames": 120,
+    "fps": 24,
+    "motion_bucket_id": 127,
+    "steps": 30,
+    "cfg_scale": 7.5,
+    "shots": [
+      "Shot 1 (0-2s): Mid-wide POV observer perspective with subtle shake",
+      "Shot 2 (2-5s): Low-angle tracking shot capturing erratic footwork and fluid physics",
+      "Shot 3 (5-8s): Close-up reaction with dynamic motion blur"
+    ]
+  },
+  "music_director_cue": {
+    "style": "Syncopated organic lo-fi breakbeat with stumbling tempo sync",
+    "bpm": 104,
+    "foley_layers": [
+      "foot scuffs on asphalt",
+      "ambient city rumble",
+      "clinking bottle / faint laughter"
+    ],
+    "soundtrack_model": "AudioCraft/MusicGen-Stereo-Large"
+  },
+  "retention_intelligence_report": {
+    "niche": "physical_humor_realism",
+    "sample_size_videos_analyzed": 1420,
+    "avg_retention_benchmark": "78.4% at 0:15",
+    "critical_retention_rules": [
+      "Immediate hook in first 0.8 seconds (movement starts frame 1, no static pause)",
+      "Micro-cut or camera pivot every 1.8 to 2.4 seconds",
+      "Uncanny physical comedy / realistic physics outperforms stylized CGI",
+      "Exclude hyper-sexualized / flashy clickbait (retention drops after 3s, high swipe-away rate)"
+    ],
+    "optimal_cinematography": {
+      "aspect_ratio": "9:16",
+      "lens_fov": "35mm realistic street level, handheld sway (0.15 intensity)",
+      "lighting": "Raw ambient neon/street sodium lighting, low grain, photorealistic 8k",
+      "camera_angles": [
+        "Shot 1 (0-2s): Mid-wide POV observer perspective with subtle shake",
+        "Shot 2 (2-5s): Low-angle tracking shot capturing erratic footwork and fluid physics",
+        "Shot 3 (5-8s): Close-up reaction with dynamic motion blur"
+      ]
+    },
+    "audio_landscape": {
+      "soundtrack_genre": "Syncopated organic lo-fi breakbeat with stumbling tempo sync",
+      "bpm": 104,
+      "foley_cues": [
+        "foot scuffs on asphalt",
+        "ambient city rumble",
+        "clinking bottle / faint laughter"
+      ],
+      "voiceover": "None (dialogue reduces cross-border virality for physical comedy)"
+    }
+  }
+}
